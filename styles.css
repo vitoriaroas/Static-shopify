@@ -16,37 +16,45 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 body {
-  background-color: var(--purple);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--white);
   text-align: center;
 }
 
+main {
+  background-color: var(--purple);
+}
+
 h1 {
-    font-size: 150px;
+  font-size: 150px;
 }
 
 @media (max-width: 1200px) {
- h1 {
+  h1 {
     font-size: 20px;
- }
+  }
 }
 
 .btn-costum {
-    background-color: var(--blue-dark);
-    border: none;
+  background-color: var(--blue-dark);
+  border: none;
 }
 
 .btn-costum:hover {
-    background-color: var(--gray-light);
-    color: var(--blue-dark);
+  background-color: var(--gray-light);
+  color: var(--blue-dark);
 }
 
 .form-costum {
-    width: 200px;
-    margin-right: 10px;
+  width: 200px;
+  margin-right: 10px;
 }
 
 small {
-    line-height: 2px;
+  line-height: 2px;
+}
+
+
+.img-waves > img{
+    width: 100%;
 }
