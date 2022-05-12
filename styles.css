@@ -1,0 +1,52 @@
+/* normalizing css */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --purple: #515fbc;
+  --gray-light: #8e99a1;
+  --blue-dark: #1e262f;
+  --white: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+body {
+  background-color: var(--purple);
+  font-family: 'Roboto', sans-serif;
+  color: var(--white);
+  text-align: center;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+@media (max-width: 1200px) {
+ h1 {
+    font-size: 20px;
+ }
+}
+
+.btn-costum {
+    background-color: var(--blue-dark);
+    border: none;
+}
+
+.btn-costum:hover {
+    background-color: var(--gray-light);
+    color: var(--blue-dark);
+}
+
+.form-costum {
+    width: 200px;
+    margin-right: 10px;
+}
+
+small {
+    line-height: 2px;
+}
